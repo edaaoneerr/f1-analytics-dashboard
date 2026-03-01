@@ -1,0 +1,112 @@
+.control-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+/* ONLY dash dropdown */
+.control-row .dash-dropdown .Select-control,
+.control-row .dash-dropdown div[class*="control"] {
+    background-color: #0b0f14 !important;
+    border: 1px solid #222 !important;
+    min-height: 42px;
+    box-shadow: none !important;
+}
+
+.control-row .dash-dropdown div[class*="control"]:hover {
+    border-color: #e10600 !important;
+}
+
+.control-row .dash-dropdown div[class*="singleValue"] {
+    color: #ffffff !important;
+}
+
+.control-row .dash-dropdown div[class*="placeholder"] {
+    color: #777 !important;
+}
+
+.control-row .dash-dropdown div[class*="menu"] {
+    background-color: #0b0f14 !important;
+    border: 1px solid #222 !important;
+}
+
+.control-row .dash-dropdown div[class*="option"] {
+    background-color: #0b0f14 !important;
+    color: white !important;
+}
+
+.control-row .dash-dropdown div[class*="option"]:hover {
+    background-color: #1a1f27 !important;
+}
+
+.control-row .dash-dropdown .Select-control {
+    background-color: #0b0f14 !important;
+    border: 1px solid #2a2f38 !important;
+    min-height: 44px;
+    border-radius: 8px;
+}
+
+.control-row .dash-dropdown .Select-value-label {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.control-row .dash-dropdown .Select-placeholder {
+    color: #9ca3af !important;
+}
+
+.control-row .dash-dropdown .Select-menu-outer {
+    background-color: #0b0f14 !important;
+    border: 1px solid #2a2f38 !important;
+}
+
+.control-row .dash-dropdown .Select-option {
+    background-color: #0b0f14 !important;
+    color: #ffffff !important;
+}
+
+.control-row .dash-dropdown .Select-option.is-focused {
+    background-color: #1a1f27 !important;
+}
+
+/* Dropdown wrapper */
+.dash-dropdown {
+    width: 280px;
+}
+
+/* Control */
+.dash-dropdown .Select-control,
+.dash-dropdown div[class*="control"] {
+    background-color: #0b0f14 !important;
+    border: 1px solid #2a2f38 !important;
+    border-radius: 8px !important;
+    min-height: 44px !important;
+    box-shadow: none !important;
+}
+
+/* Value text */
+.dash-dropdown div[class*="singleValue"] {
+    color: white !important;
+}
+
+/* Placeholder */
+.dash-dropdown div[class*="placeholder"] {
+    color: #9ca3af !important;
+}
+
+/* Dropdown menu */
+.dash-dropdown div[class*="menu"] {
+    background-color: #0b0f14 !important;
+    border: 1px solid #2a2f38 !important;
+}
+
+/* Options */
+.dash-dropdown div[class*="option"] {
+    background-color: #0b0f14 !important;
+    color: white !important;
+}
+
+/* Hover */
+.dash-dropdown div[class*="option"]:hover {
+    background-color: #1a1f27 !important;
+}

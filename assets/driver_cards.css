@@ -1,0 +1,153 @@
+.driver-card {
+  position: relative;
+  height: 240px;
+  padding: 18px 18px 14px 18px; /* alt padding azaldı */
+  border-radius: 18px;
+  overflow: hidden;
+
+  background:
+    radial-gradient(120% 120% at 10% 10%, var(--accent-soft), transparent 60%),
+    linear-gradient(160deg, var(--accent-ultra-soft), #0b0f18);
+
+  border: 1px solid var(--accent-border);
+
+  box-shadow:
+    inset 0 0 0 1px var(--accent-border),
+    0 12px 28px rgba(0,0,0,.45);
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease;
+}
+.driver-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    inset 0 0 0 1px var(--accent),
+    0 24px 48px rgba(0,0,0,.6);
+}
+
+/* HEADER */
+.driver-card-header {
+  position: relative;
+  z-index: 20;
+}
+
+.driver-name-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.driver-lastname {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  color: var(--accent);
+}
+
+.driver-team {
+  font-size: 12px;
+  opacity: .7;
+}
+
+/* DRIVER IMAGE */
+.driver-image-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 44%;
+  height: 88%;   /* KRİTİK */
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  z-index: 15;
+}
+
+.driver-image-wrap img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+
+  filter: drop-shadow(0 12px 24px rgba(0,0,0,.55));
+}
+
+/* TEAM LOGO BACKGROUND */
+.driver-team-bg {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-position: right 20% center;
+  background-size: 70%;
+  opacity: 0.12;
+  z-index: 5;
+
+  filter: saturate(1.2) blur(0.5px);
+
+  mask-image: linear-gradient(
+    to left,
+    transparent 25%,
+    black 65%
+  );
+}
+
+/* DRIVER NUMBER */
+.driver-number {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+
+  font-size: 62px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+
+  z-index: 20;
+
+  background: linear-gradient(
+    to bottom,
+    var(--accent),
+    rgba(255,255,255,0.15)
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+  0 0 8px rgba(0,0,0,.45),
+  0 0 16px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+/* POSITION */
+.driver-position {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 13px;
+  opacity: .6;
+  z-index: 20;
+}
+
+.driver-card.compact {
+  height: 160px;
+  padding: 14px;
+}
+
+.driver-card.compact .driver-image-wrap {
+  width: 38%;
+  height: 80%;
+}
+
+.driver-card.compact .driver-lastname {
+  font-size: 18px;
+}
+
+.driver-card.compact .driver-number {
+  font-size: 48px;
+}
+@media (max-width: 1200px) {
+  .driver-card {
+    height: 220px;
+  }
+}

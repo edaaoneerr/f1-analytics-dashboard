@@ -1,0 +1,58 @@
+{
+  "Alpine": {
+    "color": "#B6BABD",
+    "logo": "/assets/teams/alpine.png"
+  },
+  "Aston Martin": {
+    "color": "#0093CC",
+    "logo": "/assets/teams/aston_martin.png"
+  },
+  "Ferrari": {
+    "color": "#3671C6",
+    "logo": "/assets/teams/ferrari.png"
+  },
+  "Haas": {
+    "color": "#6692FF",
+    "logo": "/assets/teams/haas.png"
+  },
+  "Kick Sauber": {
+    "color": null,
+    "logo": "/assets/teams/kick_sauber.png"
+  },
+  "McLaren": {
+    "color": "#E80020",
+    "logo": "/assets/teams/mclaren.png"
+  },
+  "Mercedes": {
+    "color": "#229971",
+    "logo": "/assets/teams/mercedes.png"
+  },
+  "Racing Bulls": {
+    "color": "#64C4FF",
+    "logo": "/assets/teams/racing_bulls.png"
+  },
+  "Red Bull": {
+    "color": "#28F3D2",
+    "logo": "/assets/teams/red_bull.png"
+  },
+  "Williams": {
+    "color": "#52E252",
+    "logo": "/assets/teams/williams.png"
+  },
+  "AlphaTauri": {
+    "color": "#20394C",
+    "logo": "/assets/teams/alpha_tauri.png"
+  },
+  "Renault": {
+    "color": "#FFF500",
+    "logo": "/assets/teams/renault.png"
+  },
+  "Racing Point": {
+    "color": "#F596C8",
+    "logo": "/assets/teams/racing_point.png"
+  },
+  "Alfa Romeo": {
+    "color": "#900000",
+    "logo": "/assets/teams/alfa_romeo.png"
+  }
+}

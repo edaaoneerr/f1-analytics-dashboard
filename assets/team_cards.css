@@ -1,0 +1,146 @@
+.team-card {
+  position: relative;
+  height: 260px; /* TEK kaynak */
+  padding: 18px;
+  border-radius: 18px;
+  overflow: hidden;
+  cursor: pointer;
+
+  background:
+    linear-gradient(-180deg, var(--accent-soft), rgba(0,0,0,0.25));
+
+  border: 1px solid var(--accent-border);
+
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease;
+}
+
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px rgba(0,0,0,.6);
+}
+
+/* HEADER */
+.team-card-header {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 72px;
+}
+/* TITLE */
+.team-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.team-chassis {
+  font-size: 11px;
+  opacity: .65;
+}
+.team-cta {
+  margin-top: 4px;
+  font-size: 12px;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: all .25s ease;
+}
+
+.team-card:hover .team-cta {
+  opacity: .75;
+  transform: translateY(0);
+}
+
+/* DRIVER AVATARS */
+.team-driver-avatars {
+  position: absolute;
+  top: 64px;
+  right: 18px;
+  display: flex;
+  gap: 6px;
+  z-index: 20;
+}
+
+.driver-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.driver-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CAR IMAGE */
+.team-car-wrap {
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  right: 12px;
+
+  height: 130px; /* KRİTİK */
+  z-index: 15;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-car-img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.car-shadow {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  width: 75%;
+  height: 16px;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,.55);
+  filter: blur(12px);
+  border-radius: 50%;
+}
+
+/* LOGO BG */
+.team-logo-bg {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-position: center bottom 25%;
+  background-size: 65%;
+  opacity: .08;
+  z-index: 5;
+
+  mask-image: linear-gradient(
+    to top,
+    transparent 30%,
+    black 65%
+  );
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .team-card {
+    height: 240px;
+  }
+}

@@ -1,0 +1,80 @@
+.insight-card {
+  position: relative;
+  min-height: 150px;
+  padding: 26px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--card-dark);
+  border: 1px solid var(--border-soft);
+
+  backdrop-filter: blur(12px);
+
+  transition: all 0.25s ease;
+}
+
+.insight-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--f1-red);
+  box-shadow: 0 0 0 1px var(--f1-red);
+}
+
+/* subtle background graphic */
+.insight-driver .insight-bg {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  width: 40%;
+  height: 90%;
+  background-size: contain;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.insight-team .insight-bg {
+ position: absolute;
+  width: 40%;
+  height: 90%;
+  right: 10px;
+  bottom: 10px;
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.insight-meta {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.insight-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-soft);
+}
+
+.insight-highlight {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.insight-sub {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin-top: 4px;
+}
+
+.insight-cta {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #e10600;
+}

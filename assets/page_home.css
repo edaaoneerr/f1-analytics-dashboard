@@ -1,0 +1,139 @@
+.hero-insight {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 24px;
+  align-items: stretch;
+  min-height: 220px;
+}
+.hero-left .panel-link{
+  height:100%;
+  display:block;
+}
+
+.hero-left .panel-link > div{
+  height:100%;
+}
+.hero-left,
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  height:100%;
+}
+
+.hero-insight .insight-card {
+  background: linear-gradient(
+    135deg,
+    #0b0f14 60%,
+    #111722 100%
+  );
+  border: 1px solid rgba(225,6,0,0.15);
+  padding: 32px;
+}
+
+.hero-insight .insight-highlight {
+  font-size: 34px;
+}
+.hero-right {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
+  height: 100%;
+}
+.hero-left .insight-card {
+  height: 100%;
+}
+.hero-right .kpi-card {
+  height: 100%;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-stat {
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,0.06);
+  box-shadow: none;
+}
+
+.hero-stat .kpi-value {
+  font-size: 22px;
+}
+
+.hero-stat .kpi-title {
+  font-size: 10px;
+}
+/* season dropdown  */
+.season-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.season-label {
+  font-size: 13px;
+  opacity: .6;
+}
+
+.season-dropdown-min {
+  min-width: 70px;
+}
+
+.season-dropdown-min .Select-control {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.season-dropdown-min .Select-value-label {
+  color: #ffffff !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.season-dropdown-min .Select-placeholder {
+  color: #ffffff !important;
+}
+
+.season-dropdown-min .Select-arrow {
+  border-top-color: white !important;
+}
+
+.season-dropdown-min .Select-menu-outer {
+  background: #0b0f14;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.08);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* home */
+
+.page-home .highlight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.page-home .highlight-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.15);
+}
+
+.page-home .hl-k {
+  color: rgba(255,255,255,0.65);
+}
+
+.page-home .hl-v {
+  color: #fff;
+  font-weight: 700;
+}
+.page-home > div {
+  margin-bottom: 20px;
+}

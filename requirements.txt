@@ -2,3 +2,6 @@ pandas
 dash
 numpy
 dotenv
+dash-bootstrap-components
+statsmodels
+gunicorn

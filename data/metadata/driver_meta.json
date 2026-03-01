@@ -1,0 +1,218 @@
+{
+  "1": {
+    "name": "Lewis Hamilton",
+    "team": "Mercedes",
+    "number": 44,
+    "image": "/assets/drivers/1.png"
+  },
+  "4": {
+    "name": "Fernando Alonso",
+    "team": "Aston Martin",
+    "number": 14,
+    "image": "/assets/drivers/4.png"
+  },
+  "8": {
+    "name": "Kimi Räikkönen",
+    "team": "Alfa Romeo",
+    "number": 7,
+    "image": "/assets/drivers/8.png"
+  },
+  "9": {
+    "name": "Robert Kubica",
+    "team": "Alfa Romeo",
+    "number": 88,
+    "image": "/assets/drivers/9.png"
+  },
+  "20": {
+    "name": "Sebastian Vettel",
+    "team": "Aston Martin",
+    "number": 5,
+    "image": "/assets/drivers/20.png"
+  },
+  "154": {
+    "name": "Romain Grosjean",
+    "team": "Haas",
+    "number": 8,
+    "image": "/assets/drivers/154.png"
+  },
+  "807": {
+    "name": "Nico Hülkenberg",
+    "team": "Haas",
+    "number": 27,
+    "image": "/assets/drivers/807.png"
+  },
+  "815": {
+    "name": "Sergio Pérez",
+    "team": "Red Bull",
+    "number": 11,
+    "image": "/assets/drivers/815.png"
+  },
+  "817": {
+    "name": "Daniel Ricciardo",
+    "team": "Racing Bulls",
+    "number": 3,
+    "image": "/assets/drivers/817.png"
+  },
+  "822": {
+    "name": "Valtteri Bottas",
+    "team": "Kick Sauber",
+    "number": 77,
+    "image": "/assets/drivers/822.png"
+  },
+  "825": {
+    "name": "Kevin Magnussen",
+    "team": "Haas",
+    "number": 20,
+    "image": "/assets/drivers/825.png"
+  },
+  "826": {
+    "name": "Daniil Kvyat",
+    "team": "AlphaTauri",
+    "number": 26,
+    "image": "/assets/drivers/826.png"
+  },
+  "830": {
+    "name": "Max Verstappen",
+    "team": "Red Bull",
+    "number": 1,
+    "image": "/assets/drivers/830.png"
+  },
+  "832": {
+    "name": "Carlos Sainz",
+    "team": "Ferrari",
+    "number": 55,
+    "image": "/assets/drivers/832.png"
+  },
+  "839": {
+    "name": "Esteban Ocon",
+    "team": "Alpine",
+    "number": 31,
+    "image": "/assets/drivers/839.png"
+  },
+  "840": {
+    "name": "Lance Stroll",
+    "team": "Aston Martin",
+    "number": 18,
+    "image": "/assets/drivers/840.png"
+  },
+  "841": {
+    "name": "Antonio Giovinazzi",
+    "team": "Alfa Romeo",
+    "number": 99,
+    "image": "/assets/drivers/841.png"
+  },
+  "842": {
+    "name": "Pierre Gasly",
+    "team": "Alpine",
+    "number": 10,
+    "image": "/assets/drivers/842.png"
+  },
+  "844": {
+    "name": "Charles Leclerc",
+    "team": "Ferrari",
+    "number": 16,
+    "image": "/assets/drivers/844.png"
+  },
+  "846": {
+    "name": "Lando Norris",
+    "team": "McLaren",
+    "number": 4,
+    "image": "/assets/drivers/846.png"
+  },
+  "847": {
+    "name": "George Russell",
+    "team": "Mercedes",
+    "number": 63,
+    "image": "/assets/drivers/847.png"
+  },
+  "848": {
+    "name": "Alexander Albon",
+    "team": "Williams",
+    "number": 23,
+    "image": "/assets/drivers/848.png"
+  },
+  "849": {
+    "name": "Nicholas Latifi",
+    "team": "Williams",
+    "number": 6,
+    "image": "/assets/drivers/849.png"
+  },
+  "850": {
+    "name": "Pietro Fittipaldi",
+    "team": "Haas",
+    "number": 51,
+    "image": "/assets/drivers/850.png"
+  },
+  "851": {
+    "name": "Jack Aitken",
+    "team": "Williams",
+    "number": 89,
+    "image": "/assets/drivers/851.png"
+  },
+  "852": {
+    "name": "Yuki Tsunoda",
+    "team": "Racing Bulls",
+    "number": 22,
+    "image": "/assets/drivers/852.png"
+  },
+  "853": {
+    "name": "Nikita Mazepin",
+    "team": "Haas",
+    "number": 9,
+    "image": "/assets/drivers/853.png"
+  },
+  "854": {
+    "name": "Mick Schumacher",
+    "team": "Haas",
+    "number": 47,
+    "image": "/assets/drivers/854.png"
+  },
+  "855": {
+    "name": "Guanyu Zhou",
+    "team": "Kick Sauber",
+    "number": 24,
+    "image": "/assets/drivers/855.png"
+  },
+  "856": {
+    "name": "Nyck de Vries",
+    "team": "AlphaTauri",
+    "number": 19,
+    "image": "/assets/drivers/856.png"
+  },
+  "857": {
+    "name": "Oscar Piastri",
+    "team": "McLaren",
+    "number": 81,
+    "image": "/assets/drivers/857.png"
+  },
+  "858": {
+    "name": "Logan Sargeant",
+    "team": "Williams",
+    "number": 2,
+    "image": "/assets/drivers/858.png"
+  },
+  "859": {
+    "name": "Liam Lawson",
+    "team": "Racing Bulls",
+    "number": 30,
+    "image": "/assets/drivers/859.png"
+  },
+  "860": {
+    "name": "Oliver Bearman",
+    "team": "Haas",
+    "number": 87,
+    "image": "/assets/drivers/860.png"
+  },
+  "861": {
+    "name": "Franco Colapinto",
+    "team": "Williams",
+    "number": 43,
+    "image": "/assets/drivers/placeholder.png"
+  },
+  "862": {
+    "name": "Jack Doohan",
+    "team": "Alpine",
+    "number": 7,
+    "image": "/assets/drivers/862.png"
+  }
+}
