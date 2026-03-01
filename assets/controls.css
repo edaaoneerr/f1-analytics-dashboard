@@ -1,112 +1,114 @@
-.control-row {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
+ .control-row { 
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  align-items: center;   
+  flex-wrap: nowrap;        
 }
 
-/* ONLY dash dropdown */
-.control-row .dash-dropdown .Select-control,
-.control-row .dash-dropdown div[class*="control"] {
-    background-color: #0b0f14 !important;
-    border: 1px solid #222 !important;
-    min-height: 42px;
-    box-shadow: none !important;
+.season-wrap, .season-wrap * , .season-label {
+  color: #fff !important;
+  align-self: center;
 }
 
-.control-row .dash-dropdown div[class*="control"]:hover {
-    border-color: #e10600 !important;
-}
-
-.control-row .dash-dropdown div[class*="singleValue"] {
-    color: #ffffff !important;
-}
-
-.control-row .dash-dropdown div[class*="placeholder"] {
-    color: #777 !important;
-}
-
-.control-row .dash-dropdown div[class*="menu"] {
-    background-color: #0b0f14 !important;
-    border: 1px solid #222 !important;
-}
-
-.control-row .dash-dropdown div[class*="option"] {
-    background-color: #0b0f14 !important;
-    color: white !important;
-}
-
-.control-row .dash-dropdown div[class*="option"]:hover {
-    background-color: #1a1f27 !important;
-}
-
-.control-row .dash-dropdown .Select-control {
-    background-color: #0b0f14 !important;
-    border: 1px solid #2a2f38 !important;
-    min-height: 44px;
-    border-radius: 8px;
-}
-
-.control-row .dash-dropdown .Select-value-label {
-    color: #ffffff !important;
-    font-weight: 500;
-}
-
-.control-row .dash-dropdown .Select-placeholder {
-    color: #9ca3af !important;
-}
-
-.control-row .dash-dropdown .Select-menu-outer {
-    background-color: #0b0f14 !important;
-    border: 1px solid #2a2f38 !important;
-}
-
-.control-row .dash-dropdown .Select-option {
-    background-color: #0b0f14 !important;
-    color: #ffffff !important;
-}
-
-.control-row .dash-dropdown .Select-option.is-focused {
-    background-color: #1a1f27 !important;
-}
-
-/* Dropdown wrapper */
+/* dropdown root */
 .dash-dropdown {
-    width: 280px;
+  color: #fff !important;
 }
 
-/* Control */
-.dash-dropdown .Select-control,
-.dash-dropdown div[class*="control"] {
-    background-color: #0b0f14 !important;
-    border: 1px solid #2a2f38 !important;
-    border-radius: 8px !important;
-    min-height: 44px !important;
-    box-shadow: none !important;
+/* everything inside dropdown */
+.dash-dropdown * {
+  color: #fff !important;
+  align-self: center;
 }
 
-/* Value text */
-.dash-dropdown div[class*="singleValue"] {
-    color: white !important;
+/* react-select v5 containers */
+.dash-dropdown [class*="-control"] {
+  background-color: #0b0f14 !important;
+  border: 1px solid #2a2f38 !important;
+  border-radius: 8px !important;
+  min-height: 44px !important;
+  box-shadow: none !important;
+  align-items: center !important;
 }
 
-/* Placeholder */
-.dash-dropdown div[class*="placeholder"] {
-    color: #9ca3af !important;
+.dash-dropdown [class*="-valueContainer"] {
+  padding: 0 12px !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
-/* Dropdown menu */
-.dash-dropdown div[class*="menu"] {
-    background-color: #0b0f14 !important;
-    border: 1px solid #2a2f38 !important;
+/* value text, placeholder, input text */
+.dash-dropdown [class*="-singleValue"],
+.dash-dropdown [class*="-placeholder"],
+.dash-dropdown [class*="-input"] input {
+  color: #fff !important;
+  opacity: 1 !important;
+  align-items: center !important;
+  justify-content: center;
 }
 
-/* Options */
-.dash-dropdown div[class*="option"] {
-    background-color: #0b0f14 !important;
-    color: white !important;
+/* indicator arrow + clear */
+.dash-dropdown [class*="-indicatorContainer"] {
+  color: #fff !important;
 }
 
-/* Hover */
-.dash-dropdown div[class*="option"]:hover {
-    background-color: #1a1f27 !important;
+/* menu */
+.dash-dropdown [class*="-menu"] {
+  background-color: #0b0f14 !important;
+  border: 1px solid #2a2f38 !important;
+}
+
+.dash-dropdown [class*="-option"] {
+  background-color: #0b0f14 !important;
+  color: #fff !important;
+  align-items: center !important;
+}
+
+.dash-dropdown [class*="-option"]:hover {
+  background-color: #1a1f27 !important;
+  align-items: center !important;
+}
+
+/* multi chips */
+.dash-dropdown [class*="-multiValue"] {
+  background-color: #1a1f27 !important;
+  border: 1px solid #2a2f38 !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.dash-dropdown [class*="-multiValueLabel"] {
+  color: #fff !important;
+}
+
+.dash-dropdown [class*="-multiValueRemove"] {
+  color: #fff !important;
+}
+
+#season-select {
+  width: auto !important;
+  min-width: 90px;
+  max-width: 120px;
+}
+
+/* MULTI DROPDOWN TEK SATIR */
+#team-select [class*="-valueContainer"],
+#driver-select [class*="-valueContainer"] {
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
+/* chip'ler alt alta düşmesin */
+#team-select [class*="-multiValue"],
+#driver-select [class*="-multiValue"] {
+  margin-right: 6px;
+}
+
+/* control yüksekliği sabit */
+#team-select [class*="-control"],
+#driver-select [class*="-control"] {
+  height: 44px !important;
+  min-height: 44px !important;
 }

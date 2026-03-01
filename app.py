@@ -26,7 +26,7 @@ app = Dash(
     external_stylesheets=[dbc.themes.DARKLY],
     suppress_callback_exceptions=True,
 )
-
+server = app.server
 # -----------------------
 # Shell layout
 # -----------------------

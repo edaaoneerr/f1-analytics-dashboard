@@ -1,5 +1,5 @@
 pandas
-dash
+dash==2.14.2
 numpy
 dotenv
 dash-bootstrap-components
