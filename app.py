@@ -44,6 +44,10 @@ app.layout = html.Div(
             children=[
                 topbar,
                 html.Div(id="dash-content", className="content"),
+                html.Footer(
+                    "All Formula 1 related trademarks, logos, images, are the property of their respective owners and are used here for non-commercial purposes only.",
+                    className="dashboard-footer"
+                )
             ],
         ),
     ],
